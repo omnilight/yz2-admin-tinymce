@@ -1,0 +1,22 @@
+{
+    "name": "omnilight/yz2-admin-tinymce",
+    "description": "TinyMCE integration for Yz Admin",
+    "keywords": ["yii2", "yz2", "tinymce"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Pavel Agalecky",
+            "email": "pavel.agalecky@gmail.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "omnilight/yz2-admin": "*",
+        "pendalf89/yii2-tinymce": "*"
+    },
+    "autoload": {
+        "psr-4": { "yz\\admin\\tinymce": "" }
+    }
+}
