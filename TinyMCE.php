@@ -8,7 +8,7 @@ use yii\helpers\ArrayHelper;
 /**
  * Class TinyMCE
  */
-class TinyMCE extends \pendalf89\tinymce\TinyMce
+class TinyMCE extends pendalf89\TinyMce
 {
     public function run()
     {
